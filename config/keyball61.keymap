@@ -29,21 +29,21 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESC         &kt N1     &kt N2        &kt N3        &kt N4          &kt N5                                       &kt N6             &kt N7  &kt N8     &kt N9   &kt N0     &kt GRAVE
-&kp TAB         &kp Q      &kp W         &kp E         &kp R           &kp T                                        &kp Y              &kp U   &kp I      &kp O    &kp P      &kt BACKSLASH
-&kp CAPS        &kp A      &kp S         &kp D         &kp F           &kp G                                        &kp H              &kp J   &kp K      &kp L    &kp SEMI   &kt SQT
-&kp LEFT_SHIFT  &kp Z      &kp X         &kp C         &kp V           &kp B   &kt LEFT_BRACKET  &kt RIGHT_BRACKET  &kp N              &kp M   &kt COMMA  &kt DOT  &kt FSLH   &kp RIGHT_SHIFT
-&mo 3           &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &mo 1   &kp ENTER         &kp SPACE          &kp RS(RIGHT_ALT)                              &kt MINUS  &kp DELETE
+&kp ESC         &mt EXCL N1  &mt AT N2     &mt HASH N3   &mt DOLLAR N4   &mt PERCENT N5                                                              &mt CARET N6  &mt AMPS N7  &mt ASTRK N8         &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &mt TILDE GRAVE
+&kp TAB         &kp Q        &kp W         &kp E         &kp R           &kp T                                                                       &kp Y         &kp U        &kp I                &kp O                    &kp P                     &mt PIPE BACKSLASH
+&kp CAPS        &kp A        &kp S         &kp D         &kp F           &kp G                                                                       &kp H         &kp J        &kp K                &kp L                    &mt COLON SEMI            &mt DOUBLE_QUOTES SQT
+&kp LEFT_SHIFT  &kp Z        &kp X         &kp C         &kp V           &kp B           &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &kp N         &kp M        &mt LESS_THAN COMMA  &mt GREATER_THAN DOT     &mt QMARK FSLH            &kp RIGHT_SHIFT
+&mo 2           &kp LCTRL    &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &mo 1           &mo 3                        &kp SPACE                      &kp ENTER                                                                &mt UNDER MINUS           &mt PLUS EQUAL
             >;
         };
 
         navigation_layer {
             bindings = <
-&trans            &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                   &trans         &trans        &trans        &trans         &trans  &trans
-&trans            &kp F6   &kp F7   &kp F8  &kp F9  &kp F10                  &trans         &kp LC(HOME)  &kp UP_ARROW  &kp RC(END)    &trans  &trans
-&kp LANG_HANGEUL  &kp F11  &kp F12  &trans  &trans  &trans                   &kp PAGE_UP    &kp LEFT      &kp DOWN      &kp RIGHT      &trans  &trans
-&kp LANGUAGE_2    &trans   &trans   &trans  &trans  &trans   &trans  &trans  &kp PAGE_DOWN  &kp LC(LEFT)  &trans        &kp LC(RIGHT)  &trans  &trans
-&trans            &trans   &trans   &trans  &trans  &trans   &trans  &trans  &trans                                                    &trans  &trans
+&trans            &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                          &trans         &trans        &trans        &trans         &trans  &trans
+&trans            &kp F6   &kp F7   &kp F8  &kp F9  &kp F10                         &trans         &kp LC(HOME)  &kp UP_ARROW  &kp RC(END)    &trans  &trans
+&kp LANG_HANGEUL  &kp F11  &kp F12  &trans  &trans  &trans                          &kp PAGE_UP    &kp LEFT      &kp DOWN      &kp RIGHT      &trans  &trans
+&kp LANGUAGE_2    &trans   &trans   &trans  &trans  &trans   &trans  &trans         &kp PAGE_DOWN  &kp LC(LEFT)  &trans        &kp LC(RIGHT)  &trans  &trans
+&trans            &trans   &trans   &trans  &trans  &trans   &trans  &kp BACKSPACE  &kp DEL                                                   &trans  &trans
             >;
 
             label = "NAV";
