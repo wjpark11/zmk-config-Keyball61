@@ -2,17 +2,17 @@ layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
   - $$mdi:keyboard-esc$$
-  - {t: '1', h: toggle, s: '!'}
-  - {t: '2', h: toggle, s: '@'}
-  - {t: '3', h: toggle, s: '#'}
-  - {t: '4', h: toggle, s: $}
-  - {t: '5', h: toggle, s: '%'}
-  - {t: '6', h: toggle, s: ^}
-  - {t: '7', h: toggle, s: '&'}
-  - {t: '8', h: toggle, s: '*'}
-  - {t: '9', h: toggle, s: (}
-  - {t: '0', h: toggle, s: )}
-  - {t: '`', h: toggle, s: '~'}
+  - {t: '1', h: '!', s: '!'}
+  - {t: '2', h: '@', s: '@'}
+  - {t: '3', h: '#', s: '#'}
+  - {t: '4', h: $, s: $}
+  - {t: '5', h: '%', s: '%'}
+  - {t: '6', h: ^, s: ^}
+  - {t: '7', h: '&', s: '&'}
+  - {t: '8', h: '*', s: '*'}
+  - {t: '9', h: (, s: (}
+  - {t: '0', h: ), s: )}
+  - {t: '`', h: '~', s: '~'}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, h: toggle, s: '|'}
+  - {t: \, h: '|', s: '|'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -35,33 +35,33 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', h: toggle, s: '"'}
+  - {t: ;, h: ':', s: ':'}
+  - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - {t: '[', h: toggle, s: '{'}
-  - {t: ']', h: toggle, s: '}'}
+  - {t: '[', h: '{', s: '{'}
+  - {t: ']', h: '}', s: '}'}
   - N
   - M
-  - {t: ',', h: toggle, s: <}
-  - {t: ., h: toggle, s: '>'}
-  - {t: /, h: toggle, s: '?'}
+  - {t: ',', h: <, s: <}
+  - {t: ., h: '>', s: '>'}
+  - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - MOUSE
+  - MEDIA
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - $$mdi:apple-keyboard-shift$$
   - NAV
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - MOUSE
   - $$mdi:keyboard-space$$
-  - Sft+$$mdi:apple-keyboard-option$$
-  - {t: '-', h: toggle, s: _}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '-', h: _, s: _}
+  - {t: '=', h: +, s: +}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MEDIA:
@@ -175,7 +175,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -237,13 +237,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - MOUSE
   - {t: '$$mdi:transfer$$', type: trans}
